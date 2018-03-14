@@ -241,7 +241,7 @@ function trip_scripts(){
 
 	// footer
 	wp_deregister_script('jquery');
-	wp_enqueue_script( 'trip-scripts', get_template_directory_uri() . '/js/main.js', array(), TRIP_VERSION, true );
+	//wp_enqueue_script( 'trip-scripts', get_template_directory_uri() . '/js/main.js', array(), TRIP_VERSION, true );
 
     wp_deregister_script( 'wp-embed' );
 }
