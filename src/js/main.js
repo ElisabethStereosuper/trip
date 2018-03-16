@@ -34,17 +34,13 @@ $(function(){
 
 
 
-    let map;
-
-    function calculateAndDisplayRoute( directionsService, directionsDisplay ){
+    function calculateAndDisplayRoute( directionsService, directionsDisplay, waypoints ){
         directionsService.route({
 
-            origin: {lat: 41.881832, lng: -87.623177},
+            origin: waypoints[0].location,
             destination: 'Los Angeles, CA',
             travelMode: google.maps.TravelMode['WALKING'],
-            waypoints: [
-                {location: {lat: 37.084229, lng: -94.513283}}
-            ]
+            waypoints: waypoints
 
         }, function( response, status ){
 
@@ -63,10 +59,18 @@ $(function(){
                 strokeColor: "#c5b274",
                 strokeWeight: 3
             },
+            preserveViewport: true,
             suppressMarkers: true
         });
         const directionsService = new google.maps.DirectionsService;
-        let marker;
+        const markers = [
+            ['Truc', new google.maps.LatLng(41.881832, -87.623177), 'step'],
+            ['Truc 2', new google.maps.LatLng(37.084229, -94.513283), 'step', 'has-post'],
+            ['Truc 3', new google.maps.LatLng(35, -94.513283), 'place']
+        ];
+
+        let map, marker, waypoints = [], countSteps = 0;
+
 
         map = new google.maps.Map(document.getElementById('map'), {
             zoom: 4,
@@ -305,27 +309,24 @@ $(function(){
             ]
         });
 
-        marker = new MarkerWithLabel({
-            position: new google.maps.LatLng(41.881832, -87.623177),
-            map: map,
-            //title: loc[i][0],
-            icon: '.',
-            labelContent: '<div class="marker"></div>',
-            labelAnchor: new google.maps.Point(10, 10)
+        markers.forEach(function( elt ){
+            marker = new MarkerWithLabel({
+                position: elt[1],
+                map: map,
+                icon: '.',
+                labelContent: '<div class="marker ' + elt[2] + '"></div>',
+                labelAnchor: elt[2] === 'step' ? new google.maps.Point(7, 7) : new google.maps.Point(10, 10)
+            });
+            marker.setMap( map );
+
+            if( elt[2] === 'step'){
+                waypoints[countSteps] = {location: elt[1]};
+                countSteps ++;
+            }
         });
-        marker.setMap( map );
-        marker = new MarkerWithLabel({
-            position: new google.maps.LatLng(37.084229, -94.513283),
-            map: map,
-            //title: loc[i][0],
-            icon: '.',
-            labelContent: '<div class="marker"></div>',
-            labelAnchor: new google.maps.Point(10, 10)
-        });
-        marker.setMap( map );
 
         directionsDisplay.setMap(map);
-        calculateAndDisplayRoute(directionsService, directionsDisplay);
+        calculateAndDisplayRoute( directionsService, directionsDisplay, waypoints );
     }
 
     

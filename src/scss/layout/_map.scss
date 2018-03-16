@@ -12,4 +12,8 @@
     border-radius: 50%;
     background: #c5b274;
     cursor: pointer;
+    &.place{
+        width: 14px;
+        height: 14px;
+    }
 }
