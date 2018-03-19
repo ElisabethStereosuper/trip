@@ -7,13 +7,55 @@
 }
 
 .marker{
+    display: block;
     width: 20px;
     height: 20px;
+    position: relative;
     border-radius: 50%;
-    background: #c5b274;
+    background: #e0c776;
     cursor: pointer;
     &.place{
-        width: 14px;
-        height: 14px;
+        background: #e6dec3;
+    }
+    &.link{
+        width: 24px;
+        height: 24px;
+        background: #252425;
+        &:before, &:after{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 50%;
+        }
+        &:after{
+            border: 2px solid #e0c776;
+        }
+        &:before{
+            margin: 7px;
+            background: #e0c776;
+        }
+    }
+}
+
+// infowindow
+/*style the box*/  
+.gm-style .gm-style-iw {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    padding-bottom: 25px;
+    top: 0 !important;
+    left: 0 !important;
+    background-color: #fff !important;
+}
+
+.map-info{
+    padding: 20px;
+    font-size: 1.4rem;
+    > strong{
+        display: block;
     }
 }

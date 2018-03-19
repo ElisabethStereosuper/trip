@@ -12850,23 +12850,23 @@ $(function () {
         var directionsDisplay = new google.maps.DirectionsRenderer({
             polylineOptions: {
                 strokeColor: "#c5b274",
-                strokeWeight: 3
+                strokeWeight: 2.5
             },
             preserveViewport: true,
             suppressMarkers: true
         });
         var directionsService = new google.maps.DirectionsService();
-        var markers = [['Truc', new google.maps.LatLng(41.881832, -87.623177), 'step'], ['Truc 2', new google.maps.LatLng(37.084229, -94.513283), 'step', 'has-post'], ['Truc 3', new google.maps.LatLng(35, -94.513283), 'place']];
+        var markers = [['<strong>Truc</strong><time>12/10 - 13/10</time>', new google.maps.LatLng(41.881832, -87.623177), 'step'], ['<strong>Truc 2</strong><time>12/10 - 13/10</time>', new google.maps.LatLng(37.084229, -94.513283), 'step', 'http://e-hamel.com'], ['<strong>Truc 3</strong><time>12/10 - 13/10</time>', new google.maps.LatLng(35, -94.513283), 'place']];
 
         var map = void 0,
-            marker = void 0,
             waypoints = [],
-            countSteps = 0;
+            countSteps = 0,
+            currentInfowindow = false;
 
         map = new google.maps.Map(document.getElementById('map'), {
             zoom: 4,
             minZoom: 3,
-            maxZoom: 17,
+            maxZoom: 15,
             center: { lat: 37.77, lng: -122.447 },
             styles: [{
                 "featureType": "all",
@@ -13024,14 +13024,25 @@ $(function () {
         });
 
         markers.forEach(function (elt) {
-            marker = new MarkerWithLabel({
+            var marker = new MarkerWithLabel({
                 position: elt[1],
                 map: map,
-                icon: '.',
-                labelContent: '<div class="marker ' + elt[2] + '"></div>',
-                labelAnchor: elt[2] === 'step' ? new google.maps.Point(7, 7) : new google.maps.Point(10, 10)
+                icon: ' ',
+                labelContent: elt[3] ? '<a href="' + elt[3] + '" class="marker link ' + elt[2] + '"></a>' : '<div class="marker ' + elt[2] + '"></div>',
+                labelAnchor: elt[3] ? new google.maps.Point(12, 12) : new google.maps.Point(10, 10)
             });
-            marker.setMap(map);
+
+            var infowindow = new google.maps.InfoWindow({
+                content: '<div class="map-info">' + elt[0] + '</div>',
+                pixelOffset: new google.maps.Size(0, 10)
+            });
+
+            marker.addListener('click', function () {
+                if (currentInfowindow) currentInfowindow.close();
+
+                infowindow.open(map, marker);
+                currentInfowindow = infowindow;
+            });
 
             if (elt[2] === 'step') {
                 waypoints[countSteps] = { location: elt[1] };
