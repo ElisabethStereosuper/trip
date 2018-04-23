@@ -1,29 +1,27 @@
 <?php get_header(); ?>
 
-	<?php if ( have_posts() ) : ?>
+<?php if ( have_posts() ) : ?>
 
-	<?php while ( have_posts() ) : the_post(); ?>
-		
-		<div>
+	<ul>
 
-			<span><?php echo get_the_date(); ?></span>
-			<h2><?php the_title(); ?></h2>
-			<?php if( has_post_thumbnail() ){ the_post_thumbnail(); } ?>
-			<?php the_excerpt(); ?>
-			<a href='<?php the_permalink(); ?>'><?php _e('Read more'); ?></a>
+		<?php while ( have_posts() ) : the_post(); ?>
+				
+			<li><a href='<?php the_permalink(); ?>'>
 
-		</div>
+				<h2><?php the_title(); ?></h2>
+				<time><?php echo get_the_date(); ?></time>
+				<?php the_excerpt(); ?>
 
-	<?php endwhile; ?>
+			</a></li>
 
-	<?php else : ?>
+		<?php endwhile; ?>
+
+	</ul>
+
+<?php else : ?>
 			
 	<p><?php _e('No posts yet'); ?></p>
 
-	<?php endif; ?>
-
-</div>
-
-<div id='map' class='map'></div>
+<?php endif; ?>
 
 <?php get_footer(); ?>

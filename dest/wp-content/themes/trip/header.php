@@ -17,12 +17,14 @@
 
 		<div class='content'>
 
-			<header role='banner'>
+			<div class='menu'>
 
-				<a href='<?php echo home_url('/'); ?>' title='<?php bloginfo( 'name' ); ?>' rel='home'><?php bloginfo( 'name' ); ?></a>
+				<header role='banner'>
 
-			</header>
+					<h1><a href='<?php echo home_url('/'); ?>' title='<?php bloginfo( 'name' ); ?>' rel='home'>
+						<?php bloginfo( 'name' ); ?>
+					</a></h1>
 
-			<main role='main'>
+				</header>
 
 			
