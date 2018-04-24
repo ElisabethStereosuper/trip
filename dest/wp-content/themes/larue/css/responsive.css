@@ -1,0 +1,390 @@
+/* Grid Responsiveness
+------------------------------------------------------------------------ */
+/* Large desktop size */
+@media only screen and (max-width: 1540px) {
+	.post-slider.slider-three-per-row {
+		margin-right: -9%;
+		margin-left: -9%;
+	}
+}
+/* Large desktop size */
+@media only screen and (max-width: 1320px) {
+	.post-slider.slider-three-per-row {
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+}
+/* Large desktop size */
+@media only screen and (max-width: 1120px) {
+	.container { max-width: 1100px; width: 100%;}
+}
+@media only screen and (max-width: 960px) {
+	.container { max-width: 940px; width: 100%;}
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 782px) {
+	.row-fluid, .row {
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+	.container { width: 420px; }
+	.span1,
+	.span2,
+	.span3,
+	.span4,
+	.span5,
+	.span6,
+	.span7,
+	.span8,
+	.span9,
+	.span10,
+	.span11,
+	.span12 { width: 420px; margin: 0; padding-left: 0; padding-right: 0;}
+
+	.vc_col-sm-1, .vc_col-sm-2, .vc_col-sm-3, .vc_col-sm-4, .vc_col-sm-5, .vc_col-sm-6, .vc_col-sm-7, .vc_col-sm-8, .vc_col-sm-9, .vc_col-sm-10, .vc_col-sm-11, .vc_col-sm-12 {
+		float: none !important;
+		width: 100% !important;
+	}
+}
+/* ------------------------------------------------------------------------ */
+/* Mobile (Portrait)
+/* ------------------------------------------------------------------------ */
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+  	.row-fluid, .row {
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+    .container { width: 300px; }
+    .span1,
+    .span2,
+    .span3,
+    .span4,
+    .span5,
+    .span6,
+    .span7,
+    .span8,
+    .span9,
+    .span10,
+    .span11,
+    .span12,
+    .one-third.column,
+    .two-thirds.column { width: 300px; margin: 0; padding-left: 0; padding-right: 0;}
+}	
+/* ------------------------------------------------------------------------ */
+/* Smaller than standard 1120 (devices and browsers) */
+/* ------------------------------------------------------------------------ */
+@media only screen and (max-width: 1120px) {
+	.post-masonry {
+	  padding-left: 20px;
+	  padding-right: 20px;
+	}
+}
+/* ------------------------------------------------------------------------ */
+/* Tablet Portrait size to standard 960 (devices and browsers) / 1. Step */
+/* ------------------------------------------------------------------------ */
+@media only screen and (min-width: 783px) and (max-width: 959px) {
+	input[type="submit"], .button, button {
+		padding: 0 15px;
+	}
+	.latest-blog-item-img.alignleft {
+		float: none;
+		display: block;
+		margin: 0 0 10px 0 !important;
+		max-width: 100% !important;
+		width: 100%;
+
+	}
+	h1{
+	  font-size: 2.5em;
+	}
+	h2 {
+	  font-size: 1.75em;
+	}
+	h3 {
+	  font-size: 1.35em;
+	}
+	h4 {
+	  font-size: 1.16em;
+	}
+	.list-posts figure.post-img {
+		max-width: 180px;
+	}
+}
+
+/* ------------------------------------------------------------------------ */
+/* All Mobile Sizes (devices and browser) / all under Tablet */
+/* ------------------------------------------------------------------------ */
+@media only screen and (max-width: 782px) {
+	.custom_pad_right {
+		padding-right: 0px !important;
+	}
+	h1{
+	  font-size: 2em;
+	}
+	h2 {
+	  font-size: 1.5em;
+	}
+	h3 {
+	  font-size: 1.25em;
+	}
+	h4 {
+	  font-size: 1.1em;
+	}
+	.post-meta .meta-comment {
+		float: none;
+		margin: 0;
+		padding: 8px 5%;
+	}
+	.post-meta .meta-tags {
+		text-align: center;
+	}
+	.single .post.standard .sharebox {
+		display: none;
+	}
+	.widget .instagram-item {
+		width: 33.333%;
+	}
+	#footer .widget, .recent-post-item {
+		margin-bottom: 30px;
+	}
+	#footer .widget_mc4wp_form_widget {
+		padding: 0;
+	}
+	.my-tr {
+		display: block;
+		position: relative;
+	}
+	#header .fullwidth {
+	    padding: 0 20px;
+	}
+	.navigation_wrapper, #footer-nav-block, .header2 #navigation,
+	.header2 .search-link {
+		display: none;
+	}
+	#dl-menu,
+	.header2 .my-td {
+		display: block;
+	}
+	.header2 .my-td {
+		padding: 0;
+		text-align: center;
+	}
+	.menu-links {
+		display: none;
+	}
+	#header .social-icons {
+		display: none;
+	}
+	#header .my-td.span6 {
+		width: 100% !important;
+	}
+	#header .logo img {
+		max-width: 90px;
+	}
+	#mobile-nav {
+		display: block;
+	}
+	.show-progress-indicator .pie-wrapper {
+		bottom: 60px;
+	}
+	.post-slider-item .post-more,
+	#main.boxed .post-slider-item .post-more {
+		padding-left:5%;
+		padding-right: 5%; 
+	}
+	.post .post-meta, .post-meta .meta-comment {
+		border: 0;
+	}
+	.post-meta .sharebox {
+		float: none;
+	}
+	.post.featured .title h2 {
+	    padding: 7% 30px;
+	    font-size: 18px !important;
+	}
+	.post.featured .title {
+		margin: -80px 4% 0;
+	}
+	.title h3 {
+	    font-size: 18px !important;
+	}
+	.title h2 {
+	    font-size: 22px !important;
+	}
+	#content.span9 {
+		margin-bottom: 40px;
+	}
+	#footer-copy-block {
+		margin-bottom: 50px;
+	}
+	.post-masonry {
+	  padding-left: 20px;
+	  padding-right: 20px;
+	  width: 100% !important;
+	}
+	#posts-masonry-featured,
+	#page-wrap.masonry-page #content {
+		width: 100%;
+	}
+	#page-wrap.masonry-page #content #infscr-loading {
+		left: 50%;
+		margin-left: -70px;
+	}
+	.post-content .post-excerpt {
+		text-align: center;
+	}
+	.related-posts-item {
+		margin-bottom: 30px;
+	}
+	#respond-inputs .span6:first-child {
+		margin-bottom: 30px;
+	}
+	.author-info {
+		text-align: center;
+	}
+	.author-info .author-avatar {
+		float: none;
+		margin: 0 0 30px 0 !important; 
+		display: inline-block;
+	}
+	.post .post-img img {
+		width: 100%;
+	}
+	#page-wrap.masonry-page {
+		padding: 60px 0;
+	}
+	div[id*="post-slider"] .post-slider-item .post-img {
+		position: relative;
+		padding-bottom: 53.242% !important;
+		padding-top: 0px;
+		height: 0;
+	}
+	.navigation_wrapper + div {
+		display: none !important;
+	}
+	.post.side_image .post-img {
+		width: 100%;
+		float: none;
+		margin-left: 0;
+	}
+	.post.side_image .post-content-container, .post.side_image .meta {
+		text-align: center;
+	}
+	.post.side_image .meta:before {
+		margin-left: -35px;
+		left: 50%;
+	}
+	.post.side_image .post-meta .meta-categories ul li {
+		float: none;
+		display: inline-block;
+	}
+	#latest-posts {
+		margin-bottom: 30px;
+	}
+	.nested-block .post-item {
+		max-height: 300px;
+	}
+	#topbar .my-td {
+		display: block;
+		overflow: hidden;
+	}
+	#topbar .my-td.textright {
+		text-align: center;
+	}
+	#topbar-nav.menu {
+		width: 100%;
+		text-align: center;
+	}
+	#topbar-nav.menu li {
+		float: none;
+		display: inline-block;
+		margin: 0 5px;
+		padding: 0;
+	}
+	#topbar .social-icons li {
+		margin-left: 0;
+		padding: 0 8px;
+	}
+	.gallery-posts .gallery-count-3 .size1,
+	.gallery-posts .gallery-count-3 .size2,
+	.gallery-posts .gallery-count-3 .size3,
+	.post-gallery .item-size,
+	.nested-block .post-item-1, 
+	.nested-block .post-item-2,
+	.nested-block .post-item-3 {
+		width: 100% !important;
+		padding-bottom: 69% !important;
+	}
+	#before-footer .widget .one_seventh.instagram-item:first-child {
+		display: none;
+	}
+	#header .logo .logo-text {
+		font-size: 40px;
+	}	.author-info-shortcode {
+		text-align: center;
+		margin-bottom: 30px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.comment ul.children {
+		margin: 0 0 0 15px;
+	}
+	#wpadminbar {
+		position: fixed !important;
+	}
+	.list-posts figure.post-img {
+	    float: none;
+	    margin: 0 auto 35px;
+	}
+	.list-posts .meta,
+	.list-posts .extra-wrap,
+	.list-posts .post .post-excerpt {
+		text-align: center;
+	}
+}
+
+/* ------------------------------------------------------------------------ */
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) 2. Step */
+/* ------------------------------------------------------------------------ */
+@media only screen and (min-width: 480px) and (max-width: 782px) {
+	.post-slider-item .post-more {
+		padding: 15px 10%;
+	}
+	.post-slider-item .post-more h3 {
+		font-size: 15px !important;
+		height: 20px;
+	}
+}
+
+/* ------------------------------------------------------------------------ */
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) 3. Step */
+/* ------------------------------------------------------------------------ */
+@media only screen and (max-width: 479px) {
+	#sidebar .widget .instagram-item {
+		width: 50%;
+	}
+	.post-slider-item .post-more h3 {
+		font-size: 12px !important;
+		height: 15px;
+	}
+	.post-slider-item .post-more {
+		margin-top: -35px;
+	}
+	.post-slider-item .post-more, #main.boxed .post-slider-item .post-more {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	.comment ul.children {
+		margin: 0;
+	}
+	.author .comment-reply,
+	.comment .author-title,
+	.comment .date-comment {
+		float: none;
+	}
+}
+/* ------------------------------------------------------------------------ */
+/* EOF
+/* ------------------------------------------------------------------------ */

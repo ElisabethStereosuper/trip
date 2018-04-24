@@ -1,0 +1,1530 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Larue 1.0\n"
+"POT-Creation-Date: 2017-01-23 17:11+0200\n"
+"PO-Revision-Date: 2017-01-23 17:11+0200\n"
+"Last-Translator: \n"
+"Language-Team: ArtstudioWorks\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: _e;__;_x;_n;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:9
+msgid "Oops"
+msgstr ""
+
+#: ../404.php:10
+msgid "We don't have the page you are looking for"
+msgstr ""
+
+#: ../404.php:11
+msgid "Return to home page"
+msgstr ""
+
+#: ../archive.php:25 ../archive.php:28
+msgid "posts"
+msgstr ""
+
+#: ../archive.php:25
+msgid "in"
+msgstr ""
+
+#: ../archive.php:28
+msgid "for tag"
+msgstr ""
+
+#: ../archive.php:43 ../index.php:109 ../search.php:33
+msgid "Not Found"
+msgstr ""
+
+#: ../comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:14 ../functions.php:506 ../single.php:29 ../single.php:60
+#: ../templates/posts/content-audio.php:16
+#: ../templates/posts/content-gallery.php:16
+#: ../templates/posts/content-link.php:16
+#: ../templates/posts/content-quote.php:16
+#: ../templates/posts/content-video.php:16 ../templates/posts/content.php:16
+msgid "No Comments"
+msgstr ""
+
+#: ../comments.php:14 ../functions.php:510 ../single.php:29 ../single.php:60
+#: ../templates/posts/content-audio.php:16
+#: ../templates/posts/content-gallery.php:16
+#: ../templates/posts/content-link.php:16
+#: ../templates/posts/content-quote.php:16
+#: ../templates/posts/content-video.php:16 ../templates/posts/content.php:16
+msgid "1 Comment"
+msgstr ""
+
+#: ../comments.php:14 ../single.php:29 ../single.php:60
+#: ../templates/posts/content-audio.php:16
+#: ../templates/posts/content-gallery.php:16
+#: ../templates/posts/content-link.php:16
+#: ../templates/posts/content-quote.php:16
+#: ../templates/posts/content-video.php:16 ../templates/posts/content.php:16
+msgid "% Comments"
+msgstr ""
+
+#: ../comments.php:29
+msgid "Trackbacks &amp; Pingbacks"
+msgstr ""
+
+#: ../comments.php:53
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:69 ../framework/inc/sidebar-generator.php:205
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:71
+msgid "E-Mail"
+msgstr ""
+
+#: ../comments.php:72
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:78
+msgid "Leave a comment"
+msgstr ""
+
+#: ../comments.php:79
+msgid "Add a Comment..."
+msgstr ""
+
+#: ../comments.php:85
+msgid "Post comment"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:63
+msgid "Theme Options"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:64
+msgid "Options for theme customizing"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:70
+msgid "General"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:87
+msgid "Page loading animation"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:111
+msgid "Home page slider"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:112
+msgid "Check to enable home page slider."
+msgstr ""
+
+#: ../framework/customizer/customizer.php:128
+msgid "Home page slider slides count"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:129
+msgid "Enter slides count for home page slider."
+msgstr ""
+
+#: ../framework/customizer/customizer.php:145
+msgid "Slider posts IDs"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:146
+#: ../framework/widgets/sliderposts.php:133
+msgid ""
+"Enter posts IDs to display only those records (Note: separate values by "
+"commas (,))."
+msgstr ""
+
+#: ../framework/customizer/customizer.php:154
+msgid "Page scroll indicator"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:155
+msgid "Indicator at the bottom left corner. Uncheck it to disable"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:171
+msgid "Seo settings"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:172
+msgid "Check to disable inbuilt SEO"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:188
+msgid "Meta Keywords"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:189
+msgid "Add relevant keywords separated with commas to improve SEO."
+msgstr ""
+
+#: ../framework/customizer/customizer.php:205
+msgid "Meta Description"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:206
+msgid "Enter a short description of the website for SEO."
+msgstr ""
+
+#: ../framework/customizer/customizer.php:213
+#: ../framework/widgets/latestposts.php:122
+msgid "Layout"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:253
+msgid "Responsive Layout"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:254
+msgid "Check to enable responsiveness on your site."
+msgstr ""
+
+#: ../framework/customizer/customizer.php:270
+msgid "Zoom on mobile devices"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:271
+msgid ""
+"Check to enable zoom on mobile devices. It will disable responsiveness on "
+"mobiles."
+msgstr ""
+
+#: ../framework/customizer/customizer.php:288
+msgid "Container width"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:291
+msgid "Width for your content. Measurement is in pixel."
+msgstr ""
+
+#: ../framework/customizer/customizer.php:312
+msgid "Blog page sidebar"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:313
+msgid "Select sidebar position on blog page, or disable it."
+msgstr ""
+
+#: ../framework/customizer/customizer.php:339
+msgid "Boxed style"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:340
+msgid "Check to enable boxed version of your site."
+msgstr ""
+
+#: ../framework/customizer/customizer.php:357
+msgid "Body Background Image"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:375
+#: ../framework/customizer/customizer.php:521
+msgid "Background size"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:378
+#: ../framework/customizer/customizer.php:524
+msgid "Auto"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:379
+#: ../framework/customizer/customizer.php:525
+msgid "Cover"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:380
+#: ../framework/customizer/customizer.php:526
+msgid "Contain"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:396
+msgid "Background image repeat"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:399
+msgid "Repeat"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:400
+msgid "No repeat"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:401
+msgid "Repeat horizontally"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:402
+msgid "Repeat vertically"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:419
+msgid "Body background color"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:428
+msgid "Header"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:445
+msgid "Primary menu dropdown style"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:448
+msgid "Dark"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:449
+#: ../framework/customizer/customizer.php:682
+msgid "Light"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:465
+msgid "Fixed navigation"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:466
+msgid "Check to fix your navigation at the top of the page."
+msgstr ""
+
+#: ../framework/customizer/customizer.php:482
+msgid "Header fullwidth"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:485
+msgid "Yes"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:486
+msgid "No"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:503
+msgid "Header Background Image"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:543
+msgid "Header background color"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:562
+msgid "Logo Image"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:580
+msgid "Logo size"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:596
+msgid "Navigation align"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:599
+msgid "Left"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:600
+msgid "Center"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:601
+msgid "Right"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:618
+msgid "Header border color"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:651
+msgid "Navigation Settings"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:675
+#: ../framework/customizer/customizer.php:964
+#: ../framework/customizer/customizer.php:1072
+msgid "font size"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:681
+msgid "Ultra Light"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:683
+msgid "Normal"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:684
+msgid "Semi Bold"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:685
+msgid "Bold"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:686
+msgid "Ultra Bold"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:700
+#: ../framework/customizer/customizer.php:981
+#: ../framework/customizer/customizer.php:1089
+msgid "font weight"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:730
+#: ../framework/customizer/customizer.php:998
+#: ../framework/customizer/customizer.php:1106
+msgid "font family"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:748
+#: ../framework/customizer/customizer.php:1016
+msgid "items color (initial)"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:767
+msgid "items color (hover, active)"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:786
+msgid "Header elements"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:804
+msgid "Topbar"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:805
+msgid "Check to enable topbar."
+msgstr ""
+
+#: ../framework/customizer/customizer.php:821
+#: ../framework/customizer/customizer.php:1150
+msgid "Socials"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:822
+msgid "Check to enable socials in header."
+msgstr ""
+
+#: ../framework/customizer/customizer.php:838
+msgid "Search button"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:839
+msgid "Check to enable search button in header."
+msgstr ""
+
+#: ../framework/customizer/customizer.php:855
+msgid "Hidden navigation"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:856
+msgid "Check to enable hidden navigation."
+msgstr ""
+
+#: ../framework/customizer/customizer.php:863
+msgid "Footer"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:881
+msgid "Footer background color"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:899
+msgid "Copyright text"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:900
+msgid "Add copyright text to footer area."
+msgstr ""
+
+#: ../framework/customizer/customizer.php:918
+msgid "Copyright background color"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:928
+msgid "Headings"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:946
+msgid "Posts headings"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:1035
+msgid "items color (hover)"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:1054
+msgid "Widgets headings"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:1124
+msgid "color"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:1142
+msgid "Widget heading separator"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:1143
+msgid "Check to enable heading separator line."
+msgstr ""
+
+#: ../framework/customizer/customizer.php:1151
+msgid ""
+"Add your social links, otherwise leave blank if you need not some links."
+msgstr ""
+
+#: ../framework/customizer/customizer.php:1187
+msgid "Skype account"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:1203
+msgid "Show rss"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:1210
+msgid "Styling"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:1228
+msgid "Theme main color"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:1246
+msgid "Body font size"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:1263
+msgid "Body font family"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:1281
+msgid "Body text color"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:1300
+msgid "Links color (initial)"
+msgstr ""
+
+#: ../framework/customizer/customizer.php:1319
+msgid "Links color (hover)"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:300 ../functions.php:459
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:301 ../functions.php:460
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: ../framework/inc/plugin-activation.php:303 ../functions.php:461
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: ../framework/inc/plugin-activation.php:305
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:306 ../functions.php:462
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:358 ../functions.php:463
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:359
+#: ../framework/inc/plugin-activation.php:817
+#: ../framework/inc/plugin-activation.php:2316
+#: ../framework/inc/plugin-activation.php:3206
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:360
+#: ../framework/inc/plugin-activation.php:2846 ../functions.php:464
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:361
+#: ../framework/inc/plugin-activation.php:2667
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../framework/inc/plugin-activation.php:363
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../framework/inc/plugin-activation.php:365
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: ../framework/inc/plugin-activation.php:367
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:368
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:369
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:370
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:549
+msgid "Update Required"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:654
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:908
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:908
+#: ../framework/inc/plugin-activation.php:911
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:911
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#. translators: %s: version number
+#: ../framework/inc/plugin-activation.php:1836
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2090
+msgid "Required"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2092
+msgid "Recommended"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2106
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2109
+msgid "External Source"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2112
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2127
+msgid "Not Installed"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2130
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2132
+msgid "Active"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2136
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2138
+msgid "Requires Update"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2140
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: ../framework/inc/plugin-activation.php:2147
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: ../framework/inc/plugin-activation.php:2190
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: ../framework/inc/plugin-activation.php:2194
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: ../framework/inc/plugin-activation.php:2198
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2272
+msgid "unknown"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2278
+msgid "Installed version:"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2285
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2295
+msgid "Available version:"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2316
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2329
+msgid "Plugin"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2330
+msgid "Source"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2331
+msgid "Type"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2334
+msgid "Version"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2335
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../framework/inc/plugin-activation.php:2379
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../framework/inc/plugin-activation.php:2384
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../framework/inc/plugin-activation.php:2389
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2452
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2481
+msgid "Install"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2486
+msgid "Update"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2489
+msgid "Activate"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2514
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2516
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2549
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2551
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2632
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2653
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:2845
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: ../framework/inc/plugin-activation.php:3133
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: ../framework/inc/plugin-activation.php:3136
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../framework/inc/plugin-activation.php:3138
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:3141
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../framework/inc/plugin-activation.php:3143
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:3143
+#: ../framework/inc/plugin-activation.php:3151
+msgid "Show Details"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:3143
+#: ../framework/inc/plugin-activation.php:3151
+msgid "Hide Details"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:3144
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: ../framework/inc/plugin-activation.php:3146
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:3149
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../framework/inc/plugin-activation.php:3151
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../framework/inc/plugin-activation.php:3152
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: ../framework/inc/plugin-activation.php:3154
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/inc/sharebox-mobile.php:16 ../framework/inc/sharebox.php:27
+#: ../framework/widgets/socials.php:26 ../functions.php:223 ../socials.php:6
+msgid "Facebook"
+msgstr ""
+
+#: ../framework/inc/sharebox-mobile.php:19 ../framework/inc/sharebox.php:30
+#: ../framework/widgets/socials.php:29 ../functions.php:226 ../socials.php:9
+msgid "Twitter"
+msgstr ""
+
+#: ../framework/inc/sharebox.php:12 ../index-latest-list.php:81
+msgid "View post"
+msgstr ""
+
+#: ../framework/inc/sharebox.php:21
+msgid "By"
+msgstr ""
+
+#: ../framework/inc/sidebar-generator.php:85
+#: ../framework/inc/sidebar-generator.php:101
+msgid "Ajax error. Cannot add sidebar"
+msgstr ""
+
+#: ../framework/inc/sidebar-generator.php:115
+msgid "Sidebar already exists, please use a different name."
+msgstr ""
+
+#: ../framework/inc/sidebar-generator.php:139
+#: ../framework/inc/sidebar-generator.php:207
+msgid "Remove"
+msgstr ""
+
+#: ../framework/inc/sidebar-generator.php:163
+msgid "Sidebar does not exist."
+msgstr ""
+
+#: ../framework/inc/sidebar-generator.php:184
+msgid "Are you sure you want to remove"
+msgstr ""
+
+#: ../framework/inc/sidebar-generator.php:184
+msgid "?\\nThis will remove any widgets you have assigned to this sidebar."
+msgstr ""
+
+#: ../framework/inc/sidebar-generator.php:193
+msgid "Sidebar Name:"
+msgstr ""
+
+#: ../framework/inc/sidebar-generator.php:199
+msgid "Sidebar Generator"
+msgstr ""
+
+#: ../framework/inc/sidebar-generator.php:201
+msgid ""
+"You can generate as many sidebars as you need. Then you can place them on "
+"any page you wish."
+msgstr ""
+
+#: ../framework/inc/sidebar-generator.php:206
+msgid "CSS class"
+msgstr ""
+
+#: ../framework/inc/sidebar-generator.php:220
+msgid "Remove this sidebar"
+msgstr ""
+
+#: ../framework/inc/sidebar-generator.php:220
+msgid "remove"
+msgstr ""
+
+#: ../framework/inc/sidebar-generator.php:228
+msgid "No Sidebars defined"
+msgstr ""
+
+#: ../framework/inc/sidebar-generator.php:236
+msgid "Add a sidebar"
+msgstr ""
+
+#: ../framework/inc/sidebar-generator.php:236
+msgid "Create Sidebar"
+msgstr ""
+
+#: ../framework/inc/sidebar-generator.php:280
+msgid "Click to toggle"
+msgstr ""
+
+#: ../framework/inc/sidebar-generator.php:280
+msgid "Sidebars"
+msgstr ""
+
+#: ../framework/inc/sidebar-generator.php:286
+msgid ""
+"Select the sidebar you wish to display on this page. If you don't want to "
+"display a Sidebar, select the 'Full-Width' Template. Note: You must first "
+"create the sidebar under Appearance > Sidebars."
+msgstr ""
+
+#: ../framework/inc/sidebar-generator.php:295
+msgid "WP Default Sidebar"
+msgstr ""
+
+#: ../framework/inc/sidebars.php:14
+msgid "Blog Widgets"
+msgstr ""
+
+#: ../framework/inc/sidebars.php:16
+msgid "These are widgets for the Blog sidebar."
+msgstr ""
+
+#: ../framework/inc/sidebars.php:25
+msgid "Hidden Menu Widgets"
+msgstr ""
+
+#: ../framework/inc/sidebars.php:27
+msgid "These are widgets for hidden menu block."
+msgstr ""
+
+#: ../framework/inc/sidebars.php:35
+msgid "Footer Widgets"
+msgstr ""
+
+#: ../framework/inc/sidebars.php:37
+msgid "These are widgets for the Footer."
+msgstr ""
+
+#: ../framework/inc/sidebars.php:45
+msgid "Before footer area"
+msgstr ""
+
+#: ../framework/inc/sidebars.php:47
+msgid "These are widgets for before footer area."
+msgstr ""
+
+#: ../framework/meta-boxes.php:15
+msgid "Post Gallery"
+msgstr ""
+
+#: ../framework/meta-boxes.php:20
+msgid "Post Gallery Images"
+msgstr ""
+
+#: ../framework/meta-boxes.php:21
+msgid ""
+"Upload up to 30 project images for a slideshow - or only one to display a "
+"single image. Notice: The Preview Image will be the Image set as Featured "
+"Image."
+msgstr ""
+
+#: ../framework/meta-boxes.php:31
+msgid "Alternative post thumbnail"
+msgstr ""
+
+#: ../framework/meta-boxes.php:51
+msgid "Post Link"
+msgstr ""
+
+#: ../framework/meta-boxes.php:56
+msgid "URL"
+msgstr ""
+
+#: ../framework/meta-boxes.php:68
+msgid "Post Quote"
+msgstr ""
+
+#: ../framework/meta-boxes.php:73
+msgid "Quote text"
+msgstr ""
+
+#: ../framework/meta-boxes.php:78
+msgid "Cite"
+msgstr ""
+
+#: ../framework/meta-boxes.php:89
+msgid "Post Image"
+msgstr ""
+
+#: ../framework/meta-boxes.php:94
+msgid "Post image layout:"
+msgstr ""
+
+#: ../framework/meta-boxes.php:95
+msgid "Select layout for image post type."
+msgstr ""
+
+#: ../framework/meta-boxes.php:100
+msgid "Side image"
+msgstr ""
+
+#: ../framework/meta-boxes.php:101
+msgid "Full-width image"
+msgstr ""
+
+#: ../framework/meta-boxes.php:110
+msgid "User profile"
+msgstr ""
+
+#: ../framework/meta-boxes.php:113
+msgid "Image for user avatar"
+msgstr ""
+
+#: ../framework/meta-boxes.php:120
+msgid "Upload Image"
+msgstr ""
+
+#: ../framework/meta-boxes.php:121
+msgid "Upload an additional image for your user profile."
+msgstr ""
+
+#: ../framework/meta-boxes.php:125
+msgid "User socials icons"
+msgstr ""
+
+#: ../framework/meta-boxes.php:128
+msgid "Facebook:"
+msgstr ""
+
+#: ../framework/meta-boxes.php:132
+msgid "Twitter:"
+msgstr ""
+
+#: ../framework/meta-boxes.php:136
+msgid "Pinterest:"
+msgstr ""
+
+#: ../framework/meta-boxes.php:140
+msgid "Instagram:"
+msgstr ""
+
+#: ../framework/meta-boxes.php:144
+msgid "Tumblr:"
+msgstr ""
+
+#: ../framework/meta-boxes.php:148
+msgid "Disable rss icon"
+msgstr ""
+
+#: ../framework/meta-boxes.php:150
+msgid "Enter your socials links to user profile. Leave blank to hide icon."
+msgstr ""
+
+#: ../framework/widgets/aboutme.php:8
+msgid "Display informations about you"
+msgstr ""
+
+#: ../framework/widgets/aboutme.php:10
+msgid "asw-AboutMe"
+msgstr ""
+
+#: ../framework/widgets/aboutme.php:72 ../framework/widgets/map.php:72
+#: ../framework/widgets/socials.php:143
+msgid "Title:"
+msgstr ""
+
+#: ../framework/widgets/aboutme.php:76
+msgid "Image:"
+msgstr ""
+
+#: ../framework/widgets/aboutme.php:79
+msgid "Upload image"
+msgstr ""
+
+#: ../framework/widgets/aboutme.php:82
+msgid "Content:"
+msgstr ""
+
+#: ../framework/widgets/instagram.php:7
+msgid "Display your latest Instagram Photos"
+msgstr ""
+
+#: ../framework/widgets/instagram.php:9
+msgid "asw-Instagram"
+msgstr ""
+
+#: ../framework/widgets/instagram.php:102
+msgid "How to get your Access Token read this"
+msgstr ""
+
+#: ../framework/widgets/latestposts.php:8
+msgid "Display your posts"
+msgstr ""
+
+#: ../framework/widgets/latestposts.php:10
+msgid "asw-Latest Posts"
+msgstr ""
+
+#: ../framework/widgets/latestposts.php:104
+#: ../framework/widgets/latestposts.php:191
+#: ../framework/widgets/sliderposts.php:122
+msgid "Title"
+msgstr ""
+
+#: ../framework/widgets/latestposts.php:124
+msgid "Simple list"
+msgstr ""
+
+#: ../framework/widgets/latestposts.php:125
+msgid "Thumbnail & title"
+msgstr ""
+
+#: ../framework/widgets/latestposts.php:129
+#: ../framework/widgets/sliderposts.php:126
+msgid "Number of items to show"
+msgstr ""
+
+#: ../framework/widgets/latestposts.php:134
+msgid "How many words show?"
+msgstr ""
+
+#: ../framework/widgets/latestposts.php:155
+msgid "Order"
+msgstr ""
+
+#: ../framework/widgets/latestposts.php:157
+msgid "Lowest to highest values"
+msgstr ""
+
+#: ../framework/widgets/latestposts.php:158
+msgid "Highest to lowest values"
+msgstr ""
+
+#: ../framework/widgets/latestposts.php:189
+msgid "Order by"
+msgstr ""
+
+#: ../framework/widgets/latestposts.php:192
+msgid "Post's ID"
+msgstr ""
+
+#: ../framework/widgets/latestposts.php:193
+msgid "Date"
+msgstr ""
+
+#: ../framework/widgets/latestposts.php:194
+msgid "Modified date"
+msgstr ""
+
+#: ../framework/widgets/latestposts.php:195
+msgid "Popular"
+msgstr ""
+
+#: ../framework/widgets/map.php:8
+msgid "Display your location"
+msgstr ""
+
+#: ../framework/widgets/map.php:10
+msgid "asw-Map"
+msgstr ""
+
+#: ../framework/widgets/map.php:50
+msgid "Located at:"
+msgstr ""
+
+#: ../framework/widgets/map.php:76
+msgid "Address:"
+msgstr ""
+
+#: ../framework/widgets/map.php:80
+msgid "Zoom:"
+msgstr ""
+
+#: ../framework/widgets/sliderposts.php:8
+msgid "Display your posts as slider"
+msgstr ""
+
+#: ../framework/widgets/sliderposts.php:10
+msgid "asw-Slider Posts"
+msgstr ""
+
+#: ../framework/widgets/sliderposts.php:131
+msgid "Posts IDs"
+msgstr ""
+
+#: ../framework/widgets/socials.php:8
+msgid "Display your Socials icons"
+msgstr ""
+
+#: ../framework/widgets/socials.php:10
+msgid "asw-Socials"
+msgstr ""
+
+#: ../framework/widgets/socials.php:32 ../functions.php:232 ../socials.php:12
+msgid "Instagram"
+msgstr ""
+
+#: ../framework/widgets/socials.php:35 ../functions.php:229 ../socials.php:15
+msgid "Pinterest"
+msgstr ""
+
+#: ../framework/widgets/socials.php:38 ../socials.php:18
+msgid "Google plus"
+msgstr ""
+
+#: ../framework/widgets/socials.php:41 ../socials.php:21
+msgid "Forrst"
+msgstr ""
+
+#: ../framework/widgets/socials.php:44 ../socials.php:24
+msgid "Dribbble"
+msgstr ""
+
+#: ../framework/widgets/socials.php:47 ../socials.php:27
+msgid "Flickr"
+msgstr ""
+
+#: ../framework/widgets/socials.php:50 ../socials.php:30
+msgid "LinkedIn"
+msgstr ""
+
+#: ../framework/widgets/socials.php:53 ../socials.php:33
+msgid "Skype"
+msgstr ""
+
+#: ../framework/widgets/socials.php:56 ../socials.php:36
+msgid "Digg"
+msgstr ""
+
+#: ../framework/widgets/socials.php:59 ../socials.php:39
+msgid "Vimeo"
+msgstr ""
+
+#: ../framework/widgets/socials.php:62 ../socials.php:42
+msgid "Yahoo"
+msgstr ""
+
+#: ../framework/widgets/socials.php:65 ../functions.php:235 ../socials.php:45
+msgid "Tumblr"
+msgstr ""
+
+#: ../framework/widgets/socials.php:68 ../socials.php:48
+msgid "YouTube"
+msgstr ""
+
+#: ../framework/widgets/socials.php:71 ../socials.php:51
+msgid "DeviantArt"
+msgstr ""
+
+#: ../framework/widgets/socials.php:74 ../socials.php:54
+msgid "Behance"
+msgstr ""
+
+#: ../framework/widgets/socials.php:77 ../socials.php:60
+msgid "Delicious"
+msgstr ""
+
+#: ../framework/widgets/socials.php:147
+msgid "Facebook url:"
+msgstr ""
+
+#: ../framework/widgets/socials.php:151
+msgid "Twitter url:"
+msgstr ""
+
+#: ../framework/widgets/socials.php:155
+msgid "Pinterest url:"
+msgstr ""
+
+#: ../framework/widgets/socials.php:159
+msgid "Instagram url:"
+msgstr ""
+
+#: ../framework/widgets/socials.php:163
+msgid "Google plus url:"
+msgstr ""
+
+#: ../framework/widgets/socials.php:167
+msgid "Forrst url:"
+msgstr ""
+
+#: ../framework/widgets/socials.php:171
+msgid "Dribbble url:"
+msgstr ""
+
+#: ../framework/widgets/socials.php:175
+msgid "Flickr url:"
+msgstr ""
+
+#: ../framework/widgets/socials.php:179
+msgid "Linkedin url:"
+msgstr ""
+
+#: ../framework/widgets/socials.php:183
+msgid "Skype account:"
+msgstr ""
+
+#: ../framework/widgets/socials.php:187
+msgid "Digg url:"
+msgstr ""
+
+#: ../framework/widgets/socials.php:191
+msgid "Vimeo url:"
+msgstr ""
+
+#: ../framework/widgets/socials.php:195
+msgid "Yahoo url:"
+msgstr ""
+
+#: ../framework/widgets/socials.php:199
+msgid "Tumblr url:"
+msgstr ""
+
+#: ../framework/widgets/socials.php:203
+msgid "Youtube url:"
+msgstr ""
+
+#: ../framework/widgets/socials.php:207
+msgid "Deviantart url:"
+msgstr ""
+
+#: ../framework/widgets/socials.php:211
+msgid "Behance url:"
+msgstr ""
+
+#: ../framework/widgets/socials.php:215
+msgid "VKontakte url:"
+msgstr ""
+
+#: ../framework/widgets/socials.php:219
+msgid "Delicious url:"
+msgstr ""
+
+#: ../functions.php:81
+msgid "Main Navigation"
+msgstr ""
+
+#: ../functions.php:82
+msgid "Top Bar Navigation"
+msgstr ""
+
+#: ../functions.php:83
+msgid "Footer Navigation"
+msgstr ""
+
+#: ../functions.php:238 ../socials.php:63
+msgid "RSS"
+msgstr ""
+
+#: ../functions.php:257 ../templates/posts/content.php:28
+msgid "Continue reading"
+msgstr ""
+
+#: ../functions.php:297 ../functions.php:299
+msgid "Newer posts"
+msgstr ""
+
+#: ../functions.php:302 ../functions.php:304
+msgid "Older posts"
+msgstr ""
+
+#: ../functions.php:335 ../templates/posts/biography.php:14
+msgid "author photo"
+msgstr ""
+
+#: ../functions.php:342
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../functions.php:343
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: ../functions.php:343
+msgid "(Edit)"
+msgstr ""
+
+#: ../functions.php:349
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions.php:414
+msgid "Contact Form 7"
+msgstr ""
+
+#: ../functions.php:419
+msgid "Visual Composer"
+msgstr ""
+
+#: ../functions.php:426
+msgid "Meta Box"
+msgstr ""
+
+#: ../functions.php:431
+msgid "MailChimp for Wordpress"
+msgstr ""
+
+#: ../functions.php:436
+msgid "Larue Elements"
+msgstr ""
+
+#: ../functions.php:465
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../functions.php:481
+msgid "back"
+msgstr ""
+
+#: ../functions.php:508
+msgid "Comments"
+msgstr ""
+
+#: ../functions.php:514
+msgid "Comments disabled."
+msgstr ""
+
+#: ../index-latest-list.php:73 ../index.php:85
+msgid "Permalink to"
+msgstr ""
+
+#: ../index-latest-list.php:89
+msgid "Load More"
+msgstr ""
+
+#: ../index.php:85
+msgid "Read more"
+msgstr ""
+
+#: ../search.php:17
+msgid "search results for"
+msgstr ""
+
+#: ../single.php:27 ../single.php:58 ../templates/posts/content-audio.php:14
+#: ../templates/posts/content-gallery.php:14
+#: ../templates/posts/content-link.php:14
+#: ../templates/posts/content-quote.php:14
+#: ../templates/posts/content-video.php:14 ../templates/posts/content.php:14
+msgid "By "
+msgstr ""
+
+#: ../socials.php:57
+msgid "PayPal"
+msgstr ""
+
+#: ../templates/headers/header-version1.php:65
+#: ../templates/headers/header-version1.php:82
+msgid "Search"
+msgstr ""
+
+#: ../templates/posts/content.php:16
+msgid "Comments Off"
+msgstr ""
+
+#: ../templates/posts/related-posts.php:22
+msgid "Related Posts"
+msgstr ""
