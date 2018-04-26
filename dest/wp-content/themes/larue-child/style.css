@@ -17,3 +17,158 @@ All PHP code is released under the GNU General Public Licence version 3.0
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
+
+::-moz-selection{
+    background: #e0c776;
+    color: #000;
+    text-shadow: none;
+}
+::selection{
+    background: #e0c776;
+    color: #000;
+    text-shadow: none;
+}
+
+a{
+	transition: 0.3s ease-in-out;
+	-webkit-transition: 0.3s ease-in-out;
+}
+
+.widget{
+	margin-bottom: 55px;
+}
+
+#footer .widget{
+	margin-bottom: 0;
+}
+
+#footer .widget_aboutme, #footer .located-at{
+	text-align: left;
+}
+
+.gallery[class*="gallery-columns-"] .gallery-item{
+	padding: 0 8px;
+}
+
+#mobile-nav{
+	display: none;
+}
+
+.lightbox img{
+	border: 0;
+}
+.lightbox__button{
+	opacity: 1;
+}
+
+.search-form .screen-reader-text{
+	display: none;
+}
+
+.post.sticky.span12 .title h2, body.blog .post .title h2{
+	font-weight: 400;
+}
+
+body.single .title h2{
+	font-size: 34px;
+}
+
+h1, h2, h3, h4, h5, h6, #related-posts h2, #comments #reply-title, #comments-title, .author-title{
+	font-family: Roboto Condensed;
+}
+
+.author-title{
+	margin-bottom: 5px;
+}
+
+#header .logo .logo-text{
+	padding: 40px 0;
+	font-size: 20px;
+}
+
+.post-meta .meta-categories li a, .post-meta .meta-tags a{
+	background: #e0c776;
+    border: 0;
+    color: #fff;
+    opacity: 0.7;
+    line-height: 28px;
+}
+.post-meta .meta-categories li a:hover, .post-meta .meta-tags a:hover{
+	color: #fff !important;
+	opacity: 1;
+}
+
+#map{
+	height: 65vh;
+	min-height: 380px;
+}
+.marker{
+    display: block;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    border-radius: 50%;
+    background: #e0c776;
+    cursor: pointer;
+}
+.marker.place{
+    background: #e6dec3;
+}
+.marker.link{
+    width: 24px;
+    height: 24px;
+    background: #252425;
+}
+.marker.link:before, .marker.link:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+}
+.marker.link:after{
+    border: 2px solid #e0c776;
+}
+.marker.link:before{
+    margin: 7px;
+    background: #e0c776;
+}
+.gm-style div div div div div div div div div:not(.map-info) {
+	display: none;
+}
+
+.map-info{
+    padding: 20px;
+    font-size: 1.4rem;
+}
+.map-info > strong{
+    display: block;
+}
+.map-info > time{
+	font-size: 14px;
+}
+.map-info > p{
+	margin: 10px 0;
+}
+
+.gmnoprint a, .gmnoprint span {
+    display: none;
+}
+.gmnoprint .gm-style-cc div, .gmnoprint.gm-style-cc div {
+    background:none !important;
+}
+
+.search-form{
+	padding: 0 45px 0 0;
+	position: relative;
+}
+input.search-submit{
+	padding: 0;
+    width: 45px;
+    height: 43px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
